@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>学号</td>
+        <td>姓名</td>
+        <td>性别</td>
+        <td>专业班级</td>
+        <td>类型</td>
+        <td>贫困表</td>
+        <td>认定表</td>
+        <td>申请书</td>
+        <td>调查表</td>
+        <td>总的状态</td>
+    </tr>
+    {foreach $list as $row}
+    <tr>
+        <td>{$row.studentid}</td>
+        <td>{$row.studentname}</td>
+        <td>{$row.gender}</td>
+        <td>{$row.profession}{$row.class}</td>
+        <td>{if condition="$row['fund_type'] == 1"}国家奖学金{elseif condition="$row['fund_type'] == 2"}国家励志奖学金{elseif condition="$row['fund_type'] == 3 "}国家助学金{else}？{/if}</td>
+        <td><a href="/viewpoor/{$row.poor_id}/{$row.survey_id}">{$row.poor_id}</a></td>
+        <td><a href="/viewidentify/{$row.identify_id}">{$row.identify_id}</a></td>
+        <td>{$row.application_id}</td>
+        <td>{$row.survey_id}</td>
+        <td>{$row.status}</td>
+    </tr>
+    {/foreach}
+</table>
+{$list->render()}
+</body>
+</html>

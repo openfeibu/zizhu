@@ -1,0 +1,53 @@
+<table>
+    <tr>
+        <td>id</td>
+        <td>candidate_number</td>
+        <td>studentid</td>
+        <td>studentname</td>
+        <td>id_number</td>
+        <td>gender</td>
+        <td>birthday</td>
+        <td>political</td>
+        <td>nation</td>
+        <td>type</td>
+        <td>learning_way</td>
+        <td>grade</td>
+        <td>class</td>
+        <td>professional_cetegory</td>
+        <td>profession</td>
+        <td>education</td>
+        <td>school_system</td>
+        <td>admission_date</td>
+        <td>department_name</td>
+        <td>是否农村</td>
+    </tr>
+    {foreach $list as $row}
+    <tr>
+        <td>{$row.id}</td>
+        <td>{$row.candidate_number}</td>
+        <td>{$row.studentid}</td>
+        <td>{$row.studentname}</td>
+        <td>{$row.id_number}</td>
+        <td>{$row.gender}</td>
+        <td>{$row.birthday}</td>
+        <td>{$row.political}</td>
+        <td>{$row.nation}</td>
+        <td>{$row.type}</td>
+        <td>{$row.learning_way}</td>
+        <td>{$row.grade}</td>
+        <td>{$row.class}</td>
+        <td>{$row.professional_cetegory}</td>
+        <td>{$row.profession}</td>
+        <td>{$row.education}</td>
+        <td>{$row.school_system}</td>
+        <td>{$row.admission_date}</td>
+        <td>{$row.department_name}</td>
+        <td>{$row.is_rural_student}</td>
+    </tr>
+    {/foreach}
+
+</table>{$list->render()}
+<form action="{:url('index/index/leadingInDatabase')}" method="post" enctype="multipart/form-data">
+<input type="file" name="info">
+    <input type="submit">
+</form>

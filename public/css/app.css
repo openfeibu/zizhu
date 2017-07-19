@@ -1,0 +1,196 @@
+/* Write your styles */
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+article {
+    clear: both;
+    position: relative;
+    height: 100%;
+    padding-top: 51px;
+    background: #f3f3f3;
+}
+/*页头样式开始*/
+
+/*页头样式结束*/
+
+/*侧边栏样式结束*/
+aside {
+    width: 320px;
+    min-height: 100%;
+    float: left;
+    border-right: 1px solid #cecece;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    background: rgba(236,236,236,0.5);
+}
+.sidebar {
+    position: static;
+    width: auto;
+    background: none;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    overflow-y: visible;
+    min-height: 100%;
+}
+.am-panel {
+    margin: 10px;
+}
+#collapse-nav {
+    height: 0;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+.admin-sidebar-list .admin-parent:hover #collapse-nav {
+    height:auto;
+    overflow: auto;
+}
+/*侧边栏样式结束*/
+
+/*主要内容部分样式开始*/
+.main-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #fff;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.main-content-body {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+.am-table {
+    border-right:1px solid #000;
+    border-bottom:1px solid #000
+}
+.am-table > tbody > tr > td {
+    border-left: 1px solid #000;
+    border-top:1px solid #000 ;
+    min-width: 50px;
+    max-width: 100px;
+    vertical-align: middle;
+    /*white-space: nowrap;*/
+}
+.am-table > thead:first-child > tr:first-child > th {
+    border-top: 1px solid #000;
+}
+.am-table {
+    text-align: center;
+}
+.am-table td>input {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    width: 100%;
+}
+.ide-form .am-radio {
+    display: inline-block;
+    margin: 0;
+    white-space: nowrap;
+}
+.multiterm {
+    display: inline-block;
+    margin: 0;
+    white-space: nowrap;
+    padding-left: 20px; ;
+}
+.am-table>tbody>tr:first-child>td:first-child {
+    width: 10px;
+    min-width: 10px;
+}
+.ide-form {
+    min-width: 1000px;
+}
+#Annual_income {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    width: 50%;
+}
+#Housing_situation {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    width: 70%;
+}
+#Income_source,#funded,#Natural_disasters,#Unexpected_events,#Debt,#Other {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    width: 70%;
+}
+.FES {
+    margin-bottom: 0;
+}
+#Income_source+p {
+    margin: 0;
+}
+.signature p {
+    text-indent: 2em;
+}
+#hand_sign {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    width: 30%;
+}
+.ide_date input {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    width: 20%;
+}
+td[colspan='3'] .ide_date {
+    display: inline-block;
+}
+.fam_hand_sign {
+    width: 80%;
+    text-align: right;
+}
+.fam_hand_sign #fam_hand_sign {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    width: 50%;
+}
+#TITC {
+    vertical-align: top;
+}
+#TITC .am-radio {
+    font-size: 1.6rem;
+}
+.agent_sign {
+    margin-top: 30px;
+}
+#agent_hand_sign,#units_name {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    width: 80%;
+    margin-left: 20%;
+}
+#TITC .agent_sign {
+    text-align: left;
+}
+.signature tr:nth-child(2) {
+    vertical-align: middle;
+}
+.signature tr:nth-child(2) .am-radio {
+    font-size: 1.6rem;
+}
+
