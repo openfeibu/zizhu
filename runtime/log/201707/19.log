@@ -16485,3 +16485,1074 @@ tify] [i] RIGHT JOIN [user] [u] ON [u].[studentid]=[i].[user_id] WHERE  [user_id
         WHERE   t.table_name = 'identify' [ RunTime:0.091230s ]
 [ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.167005s ]
 [ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [members] FROM [identify] WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.004419s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:03:23+08:00 ] 127.0.0.1 127.0.0.1 POST /index/submit/identify.html
+[ info ] www.finecms.com/index/submit/identify.html [运行时间：1.119702s][吞吐率：0.89req/s] [内存消耗：2,377.21kb] [文件加载：48]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'submitIdentify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/index/submit/identify.html',
+  'content-length' => '4776',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.finecms.com/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.finecms.com',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+  'ide-reg-oer-res' => '0',
+  'population' => '34',
+  'school_population' => '11',
+  'establish_card' => '1',
+  'special_person' => '0',
+  'mini_living' => '1',
+  'poor_children' => '1',
+  'low_income' => '1',
+  'orphan' => '1',
+  'single_parent' => '1',
+  'martyrs_children' => '0',
+  'disability' => '0',
+  'suffering' => '1',
+  'disability_type' => '3',
+  'disability_other' => '3421',
+  'disability_grade' => '1',
+  'residence_address' => '开发与被开发开发与被开发开发与被开发开发与被开发',
+  'zip_code' => '19960730',
+  'number' => '19960730',
+  'annual_income' => '19960730',
+  'housing_situation' => '0',
+  'housing_other' => '',
+  'car_situation' => '1',
+  'members' => 
+  array (
+    0 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    1 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    2 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发v',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    3 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    4 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与与被开发被开发',
+    ),
+  ),
+  'income_source' => '开发与被开发',
+  'funded' => 'meiyou',
+  'natural_disasters' => '开发与被开发',
+  'unexpected_events' => '开发与被开发',
+  'debt' => '开发与被开发',
+  'other' => '开发与被开发',
+  'submit' => 'identify',
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->submitIdentify[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035896s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.049477s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.129363s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [population] FROM [identify] WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20)  = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.002654s ]
+[ sql ] [ SQL ] UPDATE [identify] SET [population]=34,[school_population]=11,[establish_card]='1',[special_person]='0',[mini_living]='1',[poor_children]='1',[low_income]='1',[orphan]='1',[single_parent]='1',[martyrs_children]='0',[disability]='0',[suffering]='1',[disability_type]='3',[disability_other]='3421',[disability_grade]='1',[residence_address]='开发与被开发开发与被开发开发与被开发开发与被开发',[zip_code]='19960730',[number]='19960730',[annual_income]='19960730',[housing_situation]='0',[housing_other]='',[car_situation]='1',[members]='a:5:{i:0;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:1;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:2;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:19:"开发与被开发v";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:3;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:6:"开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:4;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:30:"开发与与被开发被开发";}}',[income_source]='开发与被开发',[funded]='meiyou',[natural_disasters]='开发与被开发',[unexpected_events]='开发与被开发',[debt]='开发与被开发',[other]='开发与被开发',[update_at]=1500451403 FROM [identify]   WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 ) [ RunTime:0.385902s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:03:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.html
+[ info ] www.finecms.com/index.html [运行时间：0.398362s][吞吐率：2.51req/s] [内存消耗：2,400.41kb] [文件加载：48]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'submitIdentify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.finecms.com/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->submitIdentify[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ VIEW ] D:\php_project\zzxt\public/../application/index\view\.\index\Ide-app-form.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000102s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.051708s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.125437s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [identify] WHERE  [user_id] = '20155533219') AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.002639s ]
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'User' [ RunTime:0.034831s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='User' [ RunTime:0.079113s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [u].*,[user_id],[create_at],[update_at],[population],[school_population],[establish_card],[special_person],[mini_living],[poor_children],[low_income],[orphan],[single_parent],[martyrs_children],[disability],[suffering],[disability_type],[residence_address],[zip_code],[number],[annual_income],[housing_situation],[car_situation],[members],[income_source],[funded],[natural_disasters],[unexpected_events],[debt],[other],[disability_grade],[disability_other],[housing_other] FROM [User] [u] LEFT JOIN [identify] [i] ON [u].[studentid]=[i].[user_id] WHERE  [u].[studentid] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.005463s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:03:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] www.finecms.com/index [运行时间：0.534846s][吞吐率：1.87req/s] [内存消耗：2,286.09kb] [文件加载：47]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'submitIdentify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/index',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.finecms.com/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->submitIdentify[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000130s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.063751s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.234660s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [establish_card],[special_person],[mini_living],[poor_children],[low_income],[orphan],[single_parent],[martyrs_children],[disability],[suffering],[disability_type],[housing_situation],[car_situation],[is_rural_student],[disability_grade] FROM [identify] [i] RIGHT JOIN [user] [u] ON [u].[studentid]=[i].[user_id] WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.058180s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:03:27+08:00 ] 127.0.0.1 127.0.0.1 GET /ajax/family
+[ info ] www.finecms.com/ajax/family [运行时间：0.847467s][吞吐率：1.18req/s] [内存消耗：2,280.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'getAllFamily',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/ajax/family',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.finecms.com/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->getAllFamily[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.267681s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.110392s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.254246s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [members] FROM [identify] WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.016084s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:03:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index/submit/identify.html
+[ info ] www.finecms.com/index/submit/identify.html [运行时间：0.113165s][吞吐率：8.84req/s] [内存消耗：2,377.17kb] [文件加载：48]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'submitIdentify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/index/submit/identify.html',
+  'content-length' => '4776',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.finecms.com/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.finecms.com',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+  'ide-reg-oer-res' => '0',
+  'population' => '34',
+  'school_population' => '11',
+  'establish_card' => '1',
+  'special_person' => '0',
+  'mini_living' => '1',
+  'poor_children' => '1',
+  'low_income' => '1',
+  'orphan' => '1',
+  'single_parent' => '1',
+  'martyrs_children' => '0',
+  'disability' => '0',
+  'suffering' => '1',
+  'disability_type' => '1',
+  'disability_other' => '3421',
+  'disability_grade' => '1',
+  'residence_address' => '开发与被开发开发与被开发开发与被开发开发与被开发',
+  'zip_code' => '19960730',
+  'number' => '19960730',
+  'annual_income' => '19960730',
+  'housing_situation' => '0',
+  'housing_other' => '',
+  'car_situation' => '1',
+  'members' => 
+  array (
+    0 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    1 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    2 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发v',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    3 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    4 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与与被开发被开发',
+    ),
+  ),
+  'income_source' => '开发与被开发',
+  'funded' => 'meiyou',
+  'natural_disasters' => '开发与被开发',
+  'unexpected_events' => '开发与被开发',
+  'debt' => '开发与被开发',
+  'other' => '开发与被开发',
+  'submit' => 'identify',
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->submitIdentify[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000084s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.027486s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [population] FROM [identify] WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20)  = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.002830s ]
+[ sql ] [ SQL ] UPDATE [identify] SET [population]=34,[school_population]=11,[establish_card]='1',[special_person]='0',[mini_living]='1',[poor_children]='1',[low_income]='1',[orphan]='1',[single_parent]='1',[martyrs_children]='0',[disability]='0',[suffering]='1',[disability_type]='1',[disability_other]='3421',[disability_grade]='1',[residence_address]='开发与被开发开发与被开发开发与被开发开发与被开发',[zip_code]='19960730',[number]='19960730',[annual_income]='19960730',[housing_situation]='0',[housing_other]='',[car_situation]='1',[members]='a:5:{i:0;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:1;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:2;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:19:"开发与被开发v";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:3;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:6:"开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:4;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:30:"开发与与被开发被开发";}}',[income_source]='开发与被开发',[funded]='meiyou',[natural_disasters]='开发与被开发',[unexpected_events]='开发与被开发',[debt]='开发与被开发',[other]='开发与被开发',[update_at]=1500451414 FROM [identify]   WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 ) [ RunTime:0.012505s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:03:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.html
+[ info ] www.finecms.com/index.html [运行时间：0.134117s][吞吐率：7.46req/s] [内存消耗：2,400.36kb] [文件加载：48]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'submitIdentify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.finecms.com/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->submitIdentify[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ VIEW ] D:\php_project\zzxt\public/../application/index\view\.\index\Ide-app-form.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000081s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [identify] WHERE  [user_id] = '20155533219') AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.002566s ]
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'User' [ RunTime:0.021414s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='User' [ RunTime:0.053870s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [u].*,[user_id],[create_at],[update_at],[population],[school_population],[establish_card],[special_person],[mini_living],[poor_children],[low_income],[orphan],[single_parent],[martyrs_children],[disability],[suffering],[disability_type],[residence_address],[zip_code],[number],[annual_income],[housing_situation],[car_situation],[members],[income_source],[funded],[natural_disasters],[unexpected_events],[debt],[other],[disability_grade],[disability_other],[housing_other] FROM [User] [u] LEFT JOIN [identify] [i] ON [u].[studentid]=[i].[user_id] WHERE  [u].[studentid] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.005417s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:03:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] www.finecms.com/index [运行时间：0.126542s][吞吐率：7.90req/s] [内存消耗：2,286.09kb] [文件加载：47]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'submitIdentify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/index',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.finecms.com/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->submitIdentify[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000602s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.001804s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [establish_card],[special_person],[mini_living],[poor_children],[low_income],[orphan],[single_parent],[martyrs_children],[disability],[suffering],[disability_type],[housing_situation],[car_situation],[is_rural_student],[disability_grade] FROM [identify] [i] RIGHT JOIN [user] [u] ON [u].[studentid]=[i].[user_id] WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.022089s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:03:46+08:00 ] 127.0.0.1 127.0.0.1 POST /index/submit/identify.html
+[ info ] www.finecms.com/index/submit/identify.html [运行时间：0.321557s][吞吐率：3.11req/s] [内存消耗：2,377.18kb] [文件加载：48]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'submitIdentify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/index/submit/identify.html',
+  'content-length' => '4778',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.finecms.com/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.finecms.com',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+  'ide-reg-oer-res' => '0',
+  'population' => '34',
+  'school_population' => '11',
+  'establish_card' => '1',
+  'special_person' => '0',
+  'mini_living' => '1',
+  'poor_children' => '1',
+  'low_income' => '1',
+  'orphan' => '1',
+  'single_parent' => '1',
+  'martyrs_children' => '0',
+  'disability' => '0',
+  'suffering' => '1',
+  'disability_type' => '1',
+  'disability_other' => '3421',
+  'disability_grade' => '1',
+  'residence_address' => '开发与被开发开发与被开发开发与被开发开发与被开发',
+  'zip_code' => '19960730',
+  'number' => '19960730',
+  'annual_income' => '19960730',
+  'housing_situation' => '2',
+  'housing_other' => '32',
+  'car_situation' => '1',
+  'members' => 
+  array (
+    0 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    1 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    2 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发v',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    3 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    4 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与与被开发被开发',
+    ),
+  ),
+  'income_source' => '开发与被开发',
+  'funded' => 'meiyou',
+  'natural_disasters' => '开发与被开发',
+  'unexpected_events' => '开发与被开发',
+  'debt' => '开发与被开发',
+  'other' => '开发与被开发',
+  'submit' => 'identify',
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->submitIdentify[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000251s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [population] FROM [identify] WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20)  = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.000226s ]
+[ sql ] [ SQL ] UPDATE [identify] SET [population]=34,[school_population]=11,[establish_card]='1',[special_person]='0',[mini_living]='1',[poor_children]='1',[low_income]='1',[orphan]='1',[single_parent]='1',[martyrs_children]='0',[disability]='0',[suffering]='1',[disability_type]='1',[disability_other]='3421',[disability_grade]='1',[residence_address]='开发与被开发开发与被开发开发与被开发开发与被开发',[zip_code]='19960730',[number]='19960730',[annual_income]='19960730',[housing_situation]='2',[housing_other]='32',[car_situation]='1',[members]='a:5:{i:0;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:1;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:2;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:19:"开发与被开发v";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:3;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:6:"开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:4;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:30:"开发与与被开发被开发";}}',[income_source]='开发与被开发',[funded]='meiyou',[natural_disasters]='开发与被开发',[unexpected_events]='开发与被开发',[debt]='开发与被开发',[other]='开发与被开发',[update_at]=1500451426 FROM [identify]   WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 ) [ RunTime:0.227309s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:03:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.html
+[ info ] www.finecms.com/index.html [运行时间：0.059393s][吞吐率：16.84req/s] [内存消耗：2,399.85kb] [文件加载：48]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'submitIdentify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.finecms.com/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->submitIdentify[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ VIEW ] D:\php_project\zzxt\public/../application/index\view\.\index\Ide-app-form.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000084s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [identify] WHERE  [user_id] = '20155533219') AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'User' [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='User' [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [u].*,[user_id],[create_at],[update_at],[population],[school_population],[establish_card],[special_person],[mini_living],[poor_children],[low_income],[orphan],[single_parent],[martyrs_children],[disability],[suffering],[disability_type],[residence_address],[zip_code],[number],[annual_income],[housing_situation],[car_situation],[members],[income_source],[funded],[natural_disasters],[unexpected_events],[debt],[other],[disability_grade],[disability_other],[housing_other] FROM [User] [u] LEFT JOIN [identify] [i] ON [u].[studentid]=[i].[user_id] WHERE  [u].[studentid] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.001513s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:03:47+08:00 ] 127.0.0.1 127.0.0.1 GET /ajax/family
+[ info ] www.finecms.com/ajax/family [运行时间：0.106735s][吞吐率：9.37req/s] [内存消耗：2,280.80kb] [文件加载：47]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'getAllFamily',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/ajax/family',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.finecms.com/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->getAllFamily[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000327s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.005665s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.007553s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [members] FROM [identify] WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.000577s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:03:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] www.finecms.com/index [运行时间：0.112190s][吞吐率：8.91req/s] [内存消耗：2,286.09kb] [文件加载：47]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'submitIdentify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/index',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.finecms.com/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->submitIdentify[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000125s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.014563s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.010692s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [establish_card],[special_person],[mini_living],[poor_children],[low_income],[orphan],[single_parent],[martyrs_children],[disability],[suffering],[disability_type],[housing_situation],[car_situation],[is_rural_student],[disability_grade] FROM [identify] [i] RIGHT JOIN [user] [u] ON [u].[studentid]=[i].[user_id] WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.015852s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:09:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index/submit/identify.html
+[ info ] www.finecms.com/index/submit/identify.html [运行时间：0.362591s][吞吐率：2.76req/s] [内存消耗：2,377.16kb] [文件加载：48]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'submitIdentify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/index/submit/identify.html',
+  'content-length' => '4772',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.finecms.com/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.finecms.com',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+  'ide-reg-oer-res' => '0',
+  'population' => '34',
+  'school_population' => '11',
+  'establish_card' => '1',
+  'special_person' => '0',
+  'mini_living' => '1',
+  'poor_children' => '1',
+  'low_income' => '1',
+  'orphan' => '1',
+  'single_parent' => '1',
+  'martyrs_children' => '0',
+  'disability' => '0',
+  'suffering' => '1',
+  'disability_type' => '2',
+  'disability_other' => '',
+  'disability_grade' => '1',
+  'residence_address' => '开发与被开发开发与被开发开发与被开发开发与被开发',
+  'zip_code' => '19960730',
+  'number' => '19960730',
+  'annual_income' => '19960730',
+  'housing_situation' => '1',
+  'housing_other' => '',
+  'car_situation' => '1',
+  'members' => 
+  array (
+    0 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    1 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    2 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发v',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    3 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与被开发',
+    ),
+    4 => 
+    array (
+      'name' => '开发与被开发',
+      'age' => '开发与被开发',
+      'relation' => '开发与被开发',
+      'work_units' => '开发与被开发',
+      'contact_number' => '开发与被开发',
+      'work_condition' => '开发与被开发',
+      'education' => '开发与被开发',
+      'annual_income' => '开发与被开发',
+      'health' => '开发与与被开发被开发',
+    ),
+  ),
+  'income_source' => '开发与被开发',
+  'funded' => 'meiyou',
+  'natural_disasters' => '开发与被开发',
+  'unexpected_events' => '开发与被开发',
+  'debt' => '开发与被开发',
+  'other' => '开发与被开发',
+  'submit' => 'identify',
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->submitIdentify[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038256s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.028188s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.063750s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [population] FROM [identify] WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20)  = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.003483s ]
+[ sql ] [ SQL ] UPDATE [identify] SET [population]=34,[school_population]=11,[establish_card]='1',[special_person]='0',[mini_living]='1',[poor_children]='1',[low_income]='1',[orphan]='1',[single_parent]='1',[martyrs_children]='0',[disability]='0',[suffering]='1',[disability_type]='2',[disability_other]='',[disability_grade]='1',[residence_address]='开发与被开发开发与被开发开发与被开发开发与被开发',[zip_code]='19960730',[number]='19960730',[annual_income]='19960730',[housing_situation]='1',[housing_other]='',[car_situation]='1',[members]='a:5:{i:0;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:1;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:2;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:19:"开发与被开发v";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:3;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:6:"开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:18:"开发与被开发";}i:4;a:9:{s:4:"name";s:18:"开发与被开发";s:3:"age";s:18:"开发与被开发";s:8:"relation";s:18:"开发与被开发";s:10:"work_units";s:18:"开发与被开发";s:14:"contact_number";s:18:"开发与被开发";s:14:"work_condition";s:18:"开发与被开发";s:9:"education";s:18:"开发与被开发";s:13:"annual_income";s:18:"开发与被开发";s:6:"health";s:30:"开发与与被开发被开发";}}',[income_source]='开发与被开发',[funded]='meiyou',[natural_disasters]='开发与被开发',[unexpected_events]='开发与被开发',[debt]='开发与被开发',[other]='开发与被开发',[update_at]=1500451792 FROM [identify]   WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 ) [ RunTime:0.016785s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:09:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.html
+[ info ] www.finecms.com/index.html [运行时间：0.130355s][吞吐率：7.67req/s] [内存消耗：2,400.82kb] [文件加载：48]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'submitIdentify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.finecms.com/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->submitIdentify[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ VIEW ] D:\php_project\zzxt\public/../application/index\view\.\index\Ide-app-form.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000313s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [identify] WHERE  [user_id] = '20155533219') AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.002325s ]
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'User' [ RunTime:0.019763s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='User' [ RunTime:0.052281s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [u].*,[user_id],[create_at],[update_at],[population],[school_population],[establish_card],[special_person],[mini_living],[poor_children],[low_income],[orphan],[single_parent],[martyrs_children],[disability],[suffering],[disability_type],[residence_address],[zip_code],[number],[annual_income],[housing_situation],[car_situation],[members],[income_source],[funded],[natural_disasters],[unexpected_events],[debt],[other],[disability_grade],[disability_other],[housing_other] FROM [User] [u] LEFT JOIN [identify] [i] ON [u].[studentid]=[i].[user_id] WHERE  [u].[studentid] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.006719s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:09:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] www.finecms.com/index [运行时间：0.104966s][吞吐率：9.53req/s] [内存消耗：2,286.09kb] [文件加载：47]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'submitIdentify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/index',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.finecms.com/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->submitIdentify[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000088s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.004362s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [establish_card],[special_person],[mini_living],[poor_children],[low_income],[orphan],[single_parent],[martyrs_children],[disability],[suffering],[disability_type],[housing_situation],[car_situation],[is_rural_student],[disability_grade] FROM [identify] [i] RIGHT JOIN [user] [u] ON [u].[studentid]=[i].[user_id] WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.027992s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:09:53+08:00 ] 127.0.0.1 127.0.0.1 GET /ajax/family
+[ info ] www.finecms.com/ajax/family [运行时间：0.142796s][吞吐率：7.00req/s] [内存消耗：2,280.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'student',
+    2 => 'getAllFamily',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/ajax/family',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.finecms.com/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ RUN ] app\index\controller\Student->getAllFamily[ D:\php_project\zzxt\application\index\controller\Student.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063661s ] sqlsrv:Server=DESKTOP-BEVP4A2\SQLEXPRESS;Database=zzxt
+[ sql ] [ SQL ] SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'identify' [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT column_name FROM information_schema.key_column_usage WHERE table_name='identify' [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [members] FROM [identify] WHERE  [user_id] = '20155533219'  AND (  CONVERT(VARCHAR(4),DATEADD(S,create_at + 8 * 3600,'1970-01-01 00:00:00'),20) = 2017 )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.003631s ]
+---------------------------------------------------------------
+[ 2017-07-19T16:16:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin-index.html
+[ info ] www.finecms.com/admin-index.html [运行时间：0.233262s][吞吐率：4.29req/s] [内存消耗：981.95kb] [文件加载：30]
+[ info ] [ LANG ] D:\php_project\zzxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin-index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-rewrite-url' => '/admin-index.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.finecms.com/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.finecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

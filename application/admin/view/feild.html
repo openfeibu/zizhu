@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>name</td>
+        <td>field</td>
+        <td>type</td>
+        <td>isnull</td>
+        <td>check</td>
+        <td>delete</td>
+        <td>add</td>
+    </tr>
+    {foreach $list as $row}
+    <tr>
+        <td>{$row['name']}</td>
+        <td>{$row['field']}</td>
+        <td>{$row['field_type']}({$row['field_length']})</td>
+        <td>{$row['is_null']}</td>
+        <td><a href="/../check/field/{$row['field']}">check</a></td>
+        <td><a href="/../field/delete/{$row['field']}">delete</a></td>
+        <td><a href="showAddField">add</a></td>
+    </tr>
+    {/foreach}
+</table>
+</body>
+</html>

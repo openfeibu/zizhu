@@ -10,7 +10,7 @@ class Status extends Model
      * 查看状态表中是否有记录
      * @param $id 学号
      * @param $time 今年
-     * @param $type_id 4个表中的id
+     * @param $type_id 5个表中的id
      * @param $type 哪种表
      * @return $this|bool|false|int
      */

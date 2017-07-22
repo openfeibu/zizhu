@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>field</td>
+        <td>type</td>
+        <td>isnull</td>
+        <td>二级选项</td>
+        <td>name</td>
+        <td>选项类型</td>
+    </tr>
+    <form action="{:url('admin/assess/updatefield')}" method="post">
+        <tr>
+            <td><input type="text" value="{$row['field']}" name="field"></td>
+            <td><input type="text" value="{$row['field_type']}({$row['field_length']})" name="field_type"></td>
+            <td><input type="text" value="{$row['is_null']}" name="is_null"></td>
+            <td><textarea type="text" value="" name="score">{$row['score']}</textarea></td>
+            <td><input type="text" value="{$row.name}" name="name"></td>
+            <td>
+                单选框：<input type="radio" value="1"  name="option_type" {if condition="$row['option_type'] == 1"}checked {/if}>
+                复选框：<input type="radio" value="2"  name="option_type" {if condition="$row['option_type'] == 2"} checked {/if}>
+                下拉框：<input type="radio" value="3" name="option_type" {if condition="$row['option_type'] == 3"} checked {/if}>
+            </td>
+        </tr>
+        <input type="submit">
+    </form>
+</table>
+</body>
+</html>

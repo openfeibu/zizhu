@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>field</td>
+        <td>type</td>
+        <td>isnull</td>
+        <td>二级选项</td>
+        <td>name</td>
+        <td>选项类型</td>
+        <td>贫困等级</td>
+    </tr>
+    <form action="{:url('admin/assess/addfield')}" method="post">
+        <tr>
+            <td><input type="text" value="" name="field"></td>
+            <td><input type="text" value="" name="field_type"></td>
+            <td><input type="text" value="" name="is_null"></td>
+            <td><textarea type="text" value="" name="score" placeholder="名字和分数用|隔开，多条记录请回车后再写"></textarea></td>
+            <td><input type="text" value="" name="name"></td>
+            <td>
+                单选框：<input type="radio" value="1"  name="option_type">
+                复选框：<input type="radio" value="2"  name="option_type" >
+                多选框：<input type="radio" value="3" name="option_type">
+            </td>
+            <td><input type="text" name="level"></td>
+        </tr>
+        <input type="submit">
+    </form>
+</table>
+</body>
+</html>

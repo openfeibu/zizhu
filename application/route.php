@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 
 return [
-    'index' => 'index/student/submitIdentify',
+//    'index' => 'index/student/submitIdentify',
     'ajax/family' => 'index/student/getAllFamily',
     'submit/choosetype' => 'index/student/chooseType',
     'submit/identify' => 'index/student/submitIdentify',
@@ -18,10 +18,13 @@ return [
     'submit/survey' => 'index/student/submitSurvey',
     'submit/application' => 'index/student/apply',
 
-
+    'submit/application' => 'index/FillInformation/showForm',
+    'ajax/getidentify' => 'index/FillInformation/ajaxForStudent',
 
     'assess/all' => 'admin/assess/read',
     'read/type/:id' => 'admin/assess/readByType',
+    'check/field/:id' => 'admin/assess/checkField',
+    'field/delete/:field' => 'admin/assess/delete',
 
     'doublescholarship' => 'index/Scholarship/doubleScholarship',
 
